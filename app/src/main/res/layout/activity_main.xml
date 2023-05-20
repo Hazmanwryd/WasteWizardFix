@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#557c83"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="Welcome!"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="284dp"
+        android:layout_height="82dp"
+        android:background="@drawable/loginshape"
+        android:backgroundTint="#3aada8"
+        app:backgroundTint="#3aada8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596"
+        tools:layout_editor_absoluteX="64dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="279dp"
+        android:layout_height="73dp"
+        android:background="@drawable/loginshape"
+        app:backgroundTint="#a2d5ac"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_signin"
+
+        android:layout_width="239dp"
+        android:layout_height="39dp"
+        android:background="@drawable/loginshape"
+        android:fontFamily="@font/bebasn"
+        android:text="Continue with google"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:backgroundTint="#d9d9d9"
+        app:icon="@drawable/logogoogle"
+        app:iconGravity="start"
+        app:iconPadding="4dp"
+        app:iconSize="16dp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
